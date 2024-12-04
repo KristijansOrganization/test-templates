@@ -7,3 +7,5 @@ spec:
   targets:
     - ./templates/rhelConfigureService.yaml
     - ./templates/rhelUpdateTimeServers.yaml
+    - ./templates/windowsOperationsDeleteIis.yaml
+    - ./templates/windowsOperationsCreateIis.yaml
