@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: aap-showcases-entities
+  description: A collection of AAP show cases entities
+spec:
+  targets:
+    - ./templates/rhelConfigureService.yaml
+    - ./templates/rhelUpdateTimeServers.yaml
